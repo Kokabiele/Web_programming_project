@@ -1,0 +1,32 @@
+.parte_sotto{
+    color: #DCDCDC;
+    background-color: #181818;
+}
+.descrizioni-G{
+    font-size: 16px;
+    font-weight: 900;
+}
+.descrizioni-M{
+    font-size: 14px;
+    font-weight: 500;
+    color: #717171;
+}
+.descrizione-S{
+    font-size: 14px;
+    font-weight: 500;
+    color: #DCDCDC;
+}
+.nome_attori{
+    font-size: 16px;
+    font-weight: 500;
+    color: #DCDCDC;
+}
+.cast{
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center top;
+    border: none;
+    border-radius: 50%;
+    width:70px;
+    height: 70px;
+}

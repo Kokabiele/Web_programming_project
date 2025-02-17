@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.font{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.bold{
+  font-weight: bold;
+}
+.partesopra{
+    margin: 0;
+    padding: 0;
+    background: black;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.piratalo{
+    color: #fff;
+    font-size: 24px;
+}
+.yellow{
+  color: #FED501;
+}
+.violet{
+  color: #843CF5;
+}
+.riga_titolo{
+  background-color: white; 
+  height: 2px;
+  width: 3em;
+}
+.button_home{
+  font-weight: bold;
+  line-height: 38px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 6px;
+  margin-right: 1%;
+}
+.giallo{
+  background-color: #FED501;
+  border: #FED501;
+}
+.grigio{
+  background-color: #3E3E3E;
+  border: #3E3E3E;
+  color: #FFF;
+}
+/* animazione bottoni del menù */
+a.left
+{
+  color: #FFF;
+  text-decoration: none;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+a.left:before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.left:hover:before{
+  visibility: visible;
+  width: 100%;
+}
+/* fine animazione bottoni del menù */
+
+/* classi per la gestione delle card*/
+.centro{
+ text-align: center;
+}
+.sinistra{
+  text-align: left;
+}
+.card{
+  display: inline-block;
+  position: relative;
+  height: 350px;
+  width: 250px;
+  border-radius: 20px;
+  background-position: center top;
+  background-size: cover;
+  /* margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%; */
+}
+.card_pack{
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding: 10px;
+  padding-top: 100%;
+  height: 100%;
+  width: 100%;
+  opacity: 0.0;
+  border-radius: 20px;
+  background: linear-gradient(0deg, #000 25.0%, rgba(255, 255, 255, 0.1) 80%);
+  transition: all 0.3s ease-in-out;
+}
+.card_pack:hover{
+  padding-top: 50%;
+  opacity: 1.0;
+}
+.button_card_bar{
+  position: absolute;
+  top: 270px;
+  left: 0px;
+  width: 250px;
+  padding-bottom: 20px;
+  background: linear-gradient(0deg, #181818 75.0%, rgba(0, 0, 0, 0.0) 100%);
+}
+.button_card{
+  text-align: center;
+  line-height: 30px;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: #FFF;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #181818;
+  margin: 5px;
+}
+/* fine classi per la gestione delle card*/
